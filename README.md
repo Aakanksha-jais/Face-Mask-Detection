@@ -12,10 +12,9 @@ then fed as input to the CNN. The CNN detects whether the person is wearing the 
 
 
 If under any circumstance, the images taken by the camera module aren’t clear enough to
-classify the system fails. Therefore, the proposed system has the following limitations:
-● If the camera module is placed at a distance from the crowd, the model may not be able to
-give accurate results.
-● The model has been designed in a simple fashion, it has no way to classify whether the
-person in front of the camera is wearing a mask properly or not.
-● The model has not been trained by adversarial examples and is hence susceptible to bayesian
-error.
+classify the system fails. Therefore, the proposed system has some limitations. 
+Firstly, if the camera module is placed at a distance from the crowd, the model 
+may not be able to give accurate results.
+Secondly, model has been designed in a simple fashion, it has no way to classify whether the
+person in front of the camera is wearing a mask properly or not.At last, the model has not been 
+trained by adversarial examples and is hence susceptible to bayesian error.
